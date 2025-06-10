@@ -1,6 +1,9 @@
 README.md
 setup.py
 src/__init__.py
+src/exception.py
+src/logger.py
+src/utils.py
 water_modies.egg-info/PKG-INFO
 water_modies.egg-info/SOURCES.txt
 water_modies.egg-info/dependency_links.txt

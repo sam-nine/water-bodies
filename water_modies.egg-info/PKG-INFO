@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: water-modies
 Version: 0.0.1
 Author: Samhita
@@ -6,3 +6,5 @@ Requires-Dist: pandas
 Requires-Dist: numpy
 Requires-Dist: seaborn
 Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: requires-dist
