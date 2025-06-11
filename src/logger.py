@@ -16,6 +16,6 @@ logging.basicConfig(
 
 )
 
-if __name__=="__main__":
-    logging.info("Logging has been set up successfully.")
-    logging.info(f"Log file created at: {LOG_FILE_PATH}")
+# if __name__=="__main__":
+#     logging.info("Logging has been set up successfully.")
+#     logging.info(f"Log file created at: {LOG_FILE_PATH}")
