@@ -87,10 +87,6 @@ This section describes how to build and run the Dockerized inference service for
     # docker build -t water: .
 
 *   **Run Docker Container:**
-    ```bash
-    # [Your specific Docker run command here, e.g., mapping port 5000 and providing a model URI:]
-    # docker run -p 5000:5000 water-segmentation-inference --model_uri "runs:/<YOUR_BEST_MLFLOW_RUN_ID>/pytorch_model"
-    ```
-*   **Use Inference API:**
-    *   Once the Docker container is running, you can send images to its API endpoint for segmentation.
-    *   **[Provide an example of how to make an API request, e.g., a `curl` command or a simple Python snippet showing how to send an image and receive the prediction.]**
+        docker run --rm -v ${PWD}:/app water:latest --input input --output output
+
+        You can also run python app.py to inference the best model
