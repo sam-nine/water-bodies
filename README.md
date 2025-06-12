@@ -12,8 +12,8 @@ This guide outlines the necessary steps to set up and run the water body segment
 
 1.  **Clone the repository:**
     ```bash
-    git clone [Your GitHub Repository URL]
-    cd [Your Project's Main Directory Name]
+    git clone https://github.com/sam-nine/water-bodies
+    
     ```
 2.  **Create and activate a virtual environment (recommended):**
     ```bash
