@@ -89,4 +89,3 @@ This section describes how to build and run the Dockerized inference service for
 *   **Run Docker Container:**
         docker run --rm -v ${PWD}:/app water:latest --input input --output output
 
-        You can also run python app.py to inference the best model
