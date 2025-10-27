@@ -1,4 +1,4 @@
-# Project Run Instructions: Water Body Segmentation
+# Water Body Segmentation
 
 This guide outlines the necessary steps to set up and run the water body segmentation pipeline from data ingestion to model testing.
 
